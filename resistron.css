@@ -1,0 +1,7 @@
+.container{
+    border-style: black 3px;
+}
+.resistance{
+    background-color: #ccc;
+    display: flex;
+}
