@@ -1,0 +1,44 @@
+
+
+.firstContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+.container{
+    background-color: black;
+    width: 20%;
+    height: 3px;
+}
+.resistance{
+background-color: #ccc;
+display: flex;
+height: 100px;
+width: 41%;
+margin-left: -1%;
+border-radius: 15px;
+}
+.firstColor{
+    background-color: black;
+    width: 7%;
+    height: 100%;
+    margin-left: 20px;
+}
+.segondColor{
+    background-color: blue;
+    width: 7%;
+    height: 100%;
+    margin-left: 60px;
+}
+.treeColor{
+    background-color: red;
+    width: 7%;
+    height: 100%;
+    margin-left: 200px;
+}
+.lastColor{
+    background-color: orange;
+    width: 7%;
+    height: 100%;
+    margin-left: 200px;
+}
