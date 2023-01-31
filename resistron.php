@@ -7,6 +7,10 @@
     <title>Resistron</title>
 </head>
 <body>
+<header>
+<h1>Resistron</h1>
+<h2>CALCULATE RESISTANCE<h2>
+</header>
 <?php
 
 
