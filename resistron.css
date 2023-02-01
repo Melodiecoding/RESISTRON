@@ -1,7 +1,63 @@
-.container{
-    border-style: black 3px;
+.header{
+    text-align: center;
+}
+
+.firstContainer{
+    margin-top: 50px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+.ligne{
+    background-color: black;
+    width: 12%;
+    height: 9px;
 }
 .resistance{
-    background-color: #ccc;
+background-color: #ccc;
+display: flex;
+height: 100px;
+width: 35%;
+margin-left: -1%;
+border-radius: 15px;
+}
+.firstColor{
+    background-color: black;
+    width: 7%;
+    height: 100%;
+    margin-left: 20px;
+}
+.segondColor{
+    background-color: blue;
+    width: 7%;
+    height: 100%;
+    margin-left: 60px;
+}
+.treeColor{
+    background-color: red;
+    width: 7%;
+    height: 100%;
+    margin-left: 200px;
+}
+.lastColor{
+    background-color: orange;
+    width: 7%;
+    height: 100%;
+    margin-left: 100px;
+}
+
+.chooseColor{
     display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 70%;
+    margin-left: 10%;
+
+}
+h2{
+    margin-top: 50px;
+    text-align: center;
 }
