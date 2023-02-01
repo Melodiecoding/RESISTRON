@@ -25,7 +25,7 @@
 </div>
 
 <div class ="chooseColor"> 
-<label for="pet-select">Choose a color resistance:</label>
+<label for="color-select">Choose a color resistance:</label>
 
 <select name="firstColor" id="firstColor-select">
     <option value="">--Please choose a firstColor--</option>
