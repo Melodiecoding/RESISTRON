@@ -1,4 +1,6 @@
-
+.header{
+    text-align: center;
+}
 
 .firstContainer{
     display: flex;
@@ -7,14 +9,14 @@
 
 .container{
     background-color: black;
-    width: 20%;
-    height: 3px;
+    width: 12%;
+    height: 9px;
 }
 .resistance{
 background-color: #ccc;
 display: flex;
 height: 100px;
-width: 41%;
+width: 35%;
 margin-left: -1%;
 border-radius: 15px;
 }
@@ -40,5 +42,5 @@ border-radius: 15px;
     background-color: orange;
     width: 7%;
     height: 100%;
-    margin-left: 200px;
+    margin-left: 100px;
 }

@@ -8,9 +8,9 @@
     <title>Resistron</title>
 </head>
 <body>
-<header>
+<header class="header">
 <h1>Resistron</h1>
-<h2>CALCULATE RESISTANCE<h2>
+<h2>CALCULATE RESISTANCE</h2>
 </header>
 <div class="firstContainer">
 <div class="container"></div>
