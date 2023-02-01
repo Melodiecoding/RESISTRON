@@ -24,19 +24,26 @@ width: 35%;
 margin-left: -1%;
 border-radius: 15px;
 }
+
+.chooseColor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .firstColor{
     background-color: black;
     width: 7%;
     height: 100%;
     margin-left: 20px;
 }
-.segondColor{
+.secondColor{
     background-color: blue;
     width: 7%;
     height: 100%;
     margin-left: 60px;
 }
-.treeColor{
+.thirdColor{
     background-color: red;
     width: 7%;
     height: 100%;
