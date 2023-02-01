@@ -16,10 +16,9 @@
 <div class="ligne"></div>
     <div class="resistance">
         <div class="firstColor"></div>
-        <div class ="segondColor"></div>
-        <div class ="treeColor"></div>
+        <div class ="secondColor"></div>
+        <div class ="thirdColor"></div>
         <div class ="lastColor"></div>
-
     </div>
     <div class="ligne"></div>
 </div>
@@ -77,11 +76,8 @@
 
 <select name="lastColor" id="lastColor-select">
     <option value="">--Fourth Color--</option>
-    <option value="Black">Black</option>
-    <option value="Brown">Brown</option>
-    <option value="Red">Red</option>
-    <option value="Orange">Orange</option>
-    <option value="Yellow">Yellow</option>
+    <option value="Brown">Brown +1%</option>
+    <option value="Red">Red +2%</option>
     <option value="Green">Green</option>
     <option value="Blue">Blue</option>
     <option value="Purple">Purple</option>
@@ -95,13 +91,10 @@
 </div>
 <h2>Result</h2>
 <?php
-$firstSecondColor = [
-    'firstSecondRing' => ['Black' => 0, 'Brown' => 1, 'Red' => 2, 'Orange' => 3, 'Yellow' => 4, 'Green' => 5, 'Blue' => 6, 'Purple' => 7, 'Grey' => 8, 'White' => 9],
-];
-print_r ($firstSecondColor);
-$thirdColor = [
-    'thirdRing' => ['Black' => 1, 'Brown' => 1, 'Red' => 2, 'Orange' => 3, 'Yellow' => 4, 'Green' => 5, 'Blue' => 6, 'Purple' => 7, 'Grey' => 8, 'White' => 9, 'Gold' => 0,'Silver' => 0],
-];
+
+$firstSecondColor = ['Black' => 0, 'Brown' => 1, 'Red' => 2, 'Orange' => 3, 'Yellow' => 4, 'Green' => 5, 'Blue' => 6, 'Purple' => 7, 'Grey' => 8, 'White' => 9];
+
+$thirdColor = ['Black' => 1, 'Brown' => 1, 'Red' => 2, 'Orange' => 3, 'Yellow' => 4, 'Green' => 5, 'Blue' => 6, 'Purple' => 7, 'Grey' => 8, 'White' => 9, 'Gold' => 0,'Silver' => 0];
 
 
 ?>

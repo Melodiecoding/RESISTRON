@@ -27,8 +27,7 @@ border-radius: 15px;
 
 .chooseColor{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .firstColor{
@@ -64,6 +63,7 @@ border-radius: 15px;
     margin-left: 10%;
 
 }
+
 h2{
     margin-top: 50px;
     text-align: center;
