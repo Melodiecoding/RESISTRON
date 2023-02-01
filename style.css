@@ -3,11 +3,15 @@
 }
 
 .firstContainer{
+    margin-top: 50px ;
     display: flex;
     justify-content: center;
-    align-items: center;}
+    align-items: center;
+    margin-bottom: 50px;
+}
 
-.container{
+
+.ligne{
     background-color: black;
     width: 12%;
     height: 9px;
@@ -43,4 +47,17 @@ border-radius: 15px;
     width: 7%;
     height: 100%;
     margin-left: 100px;
+}
+
+.chooseColor{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 70%;
+    margin-left: 10%;
+
+}
+h2{
+    margin-top: 50px;
+    text-align: center;
 }
