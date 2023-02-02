@@ -1,13 +1,24 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: auto;
+    max-width: 70%;
+}
+
 .header{
     text-align: center;
 }
 
 .firstContainer{
-    margin-top: 50px ;
+    margin: 50px 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
 }
 
 
@@ -17,19 +28,26 @@
     height: 9px;
 }
 .resistance{
-background-color: #ccc;
+background-color: #f7dfc0;
 display: flex;
 height: 100px;
-width: 35%;
-margin-left: -1%;
+width: 45%;
 border-radius: 15px;
 }
 .firstColor{
     background-color: black;
-    width: 7%;
+    width: 50px;
     height: 100%;
     margin-left: 20px;
 }
+
+select {
+    margin: 0 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+}
+
 .BlueBar{
     background-color:blue;
 }
@@ -86,13 +104,16 @@ border-radius: 15px;
 
 .chooseColor{
     display: flex;
-    justify-content: space-between;
-    align-content: space-between;
-    width: 70%;
-    margin-left: 10%;
-
+    justify-content: center;
+    margin: auto;
 }
+
 h2{
     margin-top: 50px;
+    text-align: center;
+    padding: 25px;
+}
+
+p {
     text-align: center;
 }
