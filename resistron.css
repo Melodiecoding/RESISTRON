@@ -100,12 +100,15 @@ h2{
 }
 
 .echo{
+    margin: 5px;
     display: flex;
+    justify-content: center;
 }
 .echoResult{
    text-align: center;
+   background-color: grey;
+   border-radius: 20%;
 }
 .echoValue{
-    text-align: center;
-    background-color: grey;
+    text-align: center center;
 }

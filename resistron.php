@@ -30,16 +30,16 @@
                 <!-- pour un reactivite du select : onchange -->
                 <select name="firstColor" id="firstColor-select" onchange="selectColor1(this)">
                     <option value="">--First Color--</option>
-                    <option value="0">Black - 0</option>
-                    <option value="1">Brown - 1</option>
-                    <option value="2">Red - 2</option>
-                    <option value="3">Orange - 3</option>
-                    <option value="4">Yellow - 4</option>
-                    <option value="5">Green - 5</option>
-                    <option value="6">Blue - 6</option>
-                    <option value="7">Purple - 7</option>
-                    <option value="8">Grey - 8</option>
-                    <option value="9">White - 9</option>
+                    <option value="0">Black  0</option>
+                    <option value="1">Brown  1</option>
+                    <option value="2">Red  2</option>
+                    <option value="3">Orange  3</option>
+                    <option value="4">Yellow  4</option>
+                    <option value="5">Green  5</option>
+                    <option value="6">Blue  6</option>
+                    <option value="7">Purple  7</option>
+                    <option value="8">Grey  8</option>
+                    <option value="9">White  9</option>
                 </select>
 
                 <select
@@ -47,17 +47,16 @@
                 id="secondColor-select"
                 onchange="selectColor2(this)">
                     <option value="">--Second Color--</option>
-                    <option value="0">Black - 0</option>
-                    <option value="1">Brown - 1</option>
-                    <option value="2">Red - 2</option>
-                    <option value="3">Orange - 3</option>
-                    <option value="4">Yellow - 4</option>
-                    <option value="5">Green - 5</option>
-                    <option value="6">Blue - 6</option>
-                    <option value="7">Purple - 7</option>
-                    <option value="8">Grey - 8</option>
-                    <option value="9">White - 9</option>
-
+                    <option value="0">Black  0</option>
+                    <option value="1">Brown  1</option>
+                    <option value="2">Red  2</option>
+                    <option value="3">Orange  3</option>
+                    <option value="4">Yellow  4</option>
+                    <option value="5">Green  5</option>
+                    <option value="6">Blue  6</option>
+                    <option value="7">Purple  7</option>
+                    <option value="8">Grey  8</option>
+                    <option value="9">White  9</option>
                 </select>
 
                 <select name="thirdColor" id="thirdColor-select" onchange="selectColor3(this)">
@@ -82,7 +81,7 @@
                     <option value="2">Red  +2%</option>
                     <option value="0.5">Green  +0.5%</option>
                     <option value="0.25">Blue  +0.25%</option>
-                    <option value="0.10">Purple  +0.10%</option>
+                    <option value="0.1">Purple  +0.10%</option>
                     <option value="0.05">Grey  +0.05%</option>
                     <option value="5">Gold  +5%</option>
                     <option value="10">Silver  +10%</option>
@@ -195,11 +194,32 @@ if(isset($_POST['firstColor']) AND isset($_POST['secondColor']) AND isset($_POST
     $value=($first*10+ +$second)*$third;
 
     if($value>1_000_000_000){
-        echo $value/1_000_000_000 . " GOhms ±".$last."%";
+        echo '<div class="echo">';
+        echo '<div class="echoResult">';
+        echo $value/1_000_000_000;
+        echo '</div>';
+        echo '<div class="echoValue">';
+        echo " GOhms ±".$last."%";
+        echo '</div>';
+        echo '</div>';
     } elseif($value>1_000_000){
-        echo $value/1_000_000 . " MOhms ±".$last."%";
+        echo '<div class="echo">';
+        echo '<div class="echoResult">';
+        echo $value/1_000_000;
+        echo '</div>';
+        echo '<div class="echoValue">';
+        echo " MOhms ±".$last."%";
+        echo '</div>';
+        echo '</div>';
     } elseif ($value>1_000){
-        echo $value/1_000 . " kOhms ±".$last."%";
+        echo '<div class="echo">';
+        echo '<div class="echoResult">';
+        echo $value/1_000; 
+        echo '</div>';
+        echo '<div class="echoValue">';
+        echo " kOhms ±".$last."%";
+        echo '</div>';
+        echo '</div>';
     }elseif($value<1000){
         echo '<div class="echo">';
         echo '<div class="echoResult">';
@@ -211,9 +231,12 @@ if(isset($_POST['firstColor']) AND isset($_POST['secondColor']) AND isset($_POST
         echo '</div>';
     }
 
-    }else{
-    echo "Choose your colors ";}
-
+    if($value == null){
+        echo '<div class="message_erreur">';
+        echo "Choose your colors";
+        echo '</div>';
+    }
+}
 ?>
     </body>
 </html>
