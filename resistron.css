@@ -17,7 +17,7 @@
     height: 9px;
 }
 .resistance{
-background-color: #ccc;
+background-color: rgb(241, 204, 161);
 display: flex;
 height: 100px;
 width: 35%;
@@ -25,35 +25,66 @@ margin-left: -1%;
 border-radius: 15px;
 }
 
-.chooseColor{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.firstRing{
-    background-color: rgb(63, 122, 8);
+.firstColor{
+    background-color: black;
     width: 7%;
     height: 100%;
     margin-left: 20px;
 }
-.secondRing{
-    background-color: blue;
+.secondColor{
     width: 7%;
     height: 100%;
     margin-left: 60px;
 }
-.thirdRing{
-    background-color: red;
+.thirdColor{
     width: 7%;
     height: 100%;
     margin-left: 200px;
 }
-.lastRing{
-    background-color: orange;
+.lastColor{
     width: 7%;
     height: 100%;
     margin-left: 40px;
 }
+
+.BlueBar{
+    background-color:blue;
+}
+
+.OrangeBar{
+    background-color:orange;
+}
+.BlackBar{
+    background-color:Black;
+}
+.BrownBar{
+    background-color: brown;
+}
+.RedBar{
+    background-color: red;
+}
+.YellowBar{
+    background-color: yellow;
+}
+.GreenBar{
+    background-color: green;
+}
+.PurpleBar{
+    background-color: purple;
+}
+.GreyBar{
+    background-color: grey;
+}
+.WhiteBar{
+    background-color: white;
+}
+.GoldBar{
+    background-color: gold;
+}
+.SilverBar{
+    background-color: silver;
+}
+
 
 .chooseColor{
     display: flex;
@@ -63,8 +94,18 @@ border-radius: 15px;
     margin-left: 10%;
 
 }
-
 h2{
     margin-top: 50px;
     text-align: center;
+}
+
+.echo{
+    display: flex;
+}
+.echoResult{
+   text-align: center;
+}
+.echoValue{
+    text-align: center;
+    background-color: grey;
 }
