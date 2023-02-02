@@ -30,20 +30,55 @@ border-radius: 15px;
     height: 100%;
     margin-left: 20px;
 }
-.segondColor{
-    background-color: blue;
+.BlueBar{
+    background-color:blue;
+}
+
+.OrangeBar{
+    background-color:orange;
+}
+.BlackBar{
+    background-color:Black;
+}
+.BrownBar{
+    background-color: brown;
+}
+.RedBar{
+    background-color: red;
+}
+.YellowBar{
+    background-color: yellow;
+}
+.GreenBar{
+    background-color: green;
+}
+.PurpleBar{
+    background-color: purple;
+}
+.GreyBar{
+    background-color: grey;
+}
+.WhiteBar{
+    background-color: white;
+}
+.GoldBar{
+    background-color: gold;
+}
+.SilverBar{
+    background-color: silver;
+}
+
+.secondColor{
     width: 7%;
     height: 100%;
     margin-left: 60px;
 }
-.treeColor{
-    background-color: red;
+.thirdColor{
     width: 7%;
     height: 100%;
     margin-left: 200px;
 }
 .lastColor{
-    background-color: orange;
     width: 7%;
     height: 100%;
     margin-left: 100px;
